@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="landing-page">
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <!-- <img src="images/logo-dc.svg" alt="logo"> -->
+                    <a href="index.html" class="back__link"><img src="images/logo-dc.svg" alt="logo"></a>
+                </div>
+                <input type="checkbox" class="header__checkbox" id="navi-toggle">
+                <label for="navi-toggle" class="header__button">
+                    <span class="header__min-bar"></span>
+                    <span class="header__min-bar"></span>
+                    <span class="header__min-bar"></span>
+                </label>
+                <div class="header__overlay"></div>
+                <ul class="header__link">
+                    <li class="width-mobile"><a href="index.html">Home</a></li>
+                    <li><a href="component.html">component</a></li>
+                    <li><a href="pricing.html">pricing </a></li>
+                    <li><a href="updates.html">updates</a></li>
+                    <li class="width-mobile"><a href="#">support</a></li>
+                    <li class="width-mobile"><a href="#">community</a></li>
+                    <li class="width-mobile"><a href="sign-in.html">sign in</a></li>
+                </ul>
+                <a class="header__btn" href="./sign-in.html">
+                    <p class="header__parag">sing up</p>
+                </a>
+            </div>
+        </header>
+        <section class="sign-in">
+            <div class="wrapper">
+                <div class="sign-in__card">
+                    <h2 class="sign-in__heading">sign up</h2>
+                    <p class="sign-in__parag1">Access to 300+ hours of courses, tutorials and livestreams</p>
+                    <input type="email" class="sign-in__email" placeholder="Email">
+                    <input type="password" class="sign-in__password" placeholder="Password">
+                    <input type="submit" value="Sign Up" class="sign-in__submit">
+                    <p class="sign-in__parag2">by clicking on sign up. you agree to our terms of service and privacy
+                        policy. </p>
+                </div>
+            </div>
+        </section>
+        <!-- ////////////////////////////////// start footer /////////////////////////////////////////// -->
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__grid">
+                    <div class="footer__nav">
+                        <div class="footer__short-link">
+                            <div class="footer__link">
+                                <img src="images/components.svg" alt="image">
+                                <p>Components</p>
+                            </div>
+                            <div class="footer__link">
+                                <img src="images/pricing.svg" alt="image">
+                                <p>Pricing</p>
+                            </div>
+                            <div class="footer__link">
+                                <img src="images/updates.svg" alt="image">
+                                <p>Updates</p>
+                            </div>
+                        </div>
+                        <div class="footer__short-link">
+                            <div class="footer__link">
+                                <img src="images/discord.svg" alt="image">
+                                <p>discord</p>
+                            </div>
+                            <div class="footer__link">
+                                <img src="images/instagram.svg" alt="image">
+                                <p>instagram</p>
+                            </div>
+                            <div class="footer__link">
+                                <img src="images/youtube.svg" alt="image">
+                                <p>youtube</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__newsletter">
+                        <p class="newsletter__parag1">subscribe to our newsletter</p>
+                        <input type="email" placeholder="email@framer.com" class="newsletter__email">
+                        <input type="submit" value="sing up" class="newsletter__submit">
+                        <p class="newsletter__parag2">Product updates, news and promotions. No spam ever.</p>
+                    </div>
+                </div>
+                <div class="footer__line"></div>
+                <div class="footer__Copyright">
+                    <span>Copyright © 2022 DesignCode</span>
+                    <span>Terms</span>
+                    <span>Privacy Policy</span>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ////////////////////////////////// end footer /////////////////////////////////////////// -->
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
